@@ -60,7 +60,7 @@ This design supports high availability (multi-AZ, multi-region), low latency (CD
 
 ## Cost Estimates
 
-The following table estimates monthly costs for different user scales, based on AWS pricing (ap-southeast-1, October 2023). Costs include compute, database, caching, networking, and third-party API calls (assumed at $0.01 per 1,000 requests).
+The following table estimates monthly costs for different user scales, based on AWS pricing (ap-southeast-1, October 2023). Costs include compute, database, caching, networking, and third-party API calls .
 
 | Users                     | Compute (ECS/EKS) | RDS (Aurora Multi-AZ) | Redis   | CloudFront | Data Transfer | Total Estimate (Monthly) |
 | ------------------------- | ----------------- | --------------------- | ------- | ---------- | ------------- | ------------------------ |
